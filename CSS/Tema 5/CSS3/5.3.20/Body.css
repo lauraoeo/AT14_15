@@ -1,0 +1,45 @@
+body{
+	background-color: blue; /*En vez de * ponemos body para que no coja todos los elementos*/
+}
+
+
+#sandbox {
+	border-style: solid;
+	border-width: 3px;
+	border-color: rgba(25,11,11, 0.2); /*5.3.17*/
+	overflow: hidden;
+	font-family:"goudy-bookletter-1911-1","goudy-bookletter-1911-2","Baskerville","Georgia",serif;
+	margin:40px 0 0 30px;
+	padding: 20px;
+	width: 440px;
+	z-index: 2;
+	color: rgba(0,0,0,0.6); /*5.3.17*/
+	font-size: 16px;
+	border-radius: 15px; /*5.3.12*/
+	box-shadow: 0px 0px 20px #FFFFFF; /*5.3.14*/
+	background: linear-gradient( #444444,  #999999); /*5.3.16*/
+	background-color: rgba(180, 180, 144, 0.6); /*5.3.15*/
+	transform: rotateY(180deg); /*5.3.20*/
+}
+
+
+#sandbox h1{
+	margin: 0 0 20px 0;
+	font-size:56px;
+	word-spacing: 2px;
+}
+
+#sandbox abbr{
+	cursor: help;
+	color: #ff2166;
+	border-bottom: 1px dashed #888;
+	font-size: 130%;
+	text-shadow: 0px 0px 1px #333; /*5.3.13*/
+}
+
+#sandbox p{
+	font-size: 30px;
+	line-height: 50px;
+	margin: 0 0 0 0;
+	width: auto;
+}
